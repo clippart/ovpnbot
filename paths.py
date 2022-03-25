@@ -10,7 +10,7 @@ ca_cert = r"/etc/openvpn/server/easy-rsa/pki/issued/{user_id}.crt"
 private_key = r"/etc/openvpn/server/easy-rsa/pki/private/{user_id}.key"
 
 # шаблон конфига
-client_common = r"/etc/openvpn/server/client-common.txt/client-common.txt"
+client_common = r"/etc/openvpn/server/client-common.txt"
 
 # Имя результирующего файла
-sertificat = 'sertificat.ovpn'
+sertificat = '{user_id}.ovpn'
